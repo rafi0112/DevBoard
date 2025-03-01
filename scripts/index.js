@@ -12,7 +12,7 @@ currentDayName.innerText =days[dayOfWeek];
 
 document.getElementById("blogLink").style.cursor = "pointer";
 document.getElementById("blogLink").addEventListener("click",function() {
-    window.location.href="scripts/blogs.js"
+    window.location.href="scripts/blogs.js";
 })
 
 document.getElementById("themeBtn").addEventListener("click",function() {
